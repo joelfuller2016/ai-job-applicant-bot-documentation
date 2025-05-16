@@ -53,3 +53,13 @@ The implementation is organized into three phases:
    - Testing & Documentation
 
 For detailed information on each component and the implementation plan, please refer to the [Project Documentation](project_documentation.md).
+## Running the Streamlit UI
+
+A minimal Streamlit interface is included under `ui/app.py`. To launch the UI locally or in GitHub Codespaces:
+
+```bash
+pip install -r requirements.txt
+streamlit run ui/app.py
+```
+
+Codespaces will forward the default port (8501) so you can open the app directly in your browser, including on mobile devices.
