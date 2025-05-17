@@ -1,0 +1,6 @@
+{
+  "name": "AI Job Applicant Bot",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.10",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [8501]
+}
