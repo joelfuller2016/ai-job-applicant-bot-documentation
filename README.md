@@ -69,3 +69,5 @@ Codespaces will forward the default port (8501) so you can open the app directly
 A `.devcontainer` directory is provided so the repository can run directly in GitHub Codespaces.
 To start a Codespace, click the **Code** button on the repository page and choose **Open with Codespaces**.
 The container image installs the required Python dependencies and forwards port `8501` for the Streamlit UI.
+
+For step-by-step instructions, see [Codespaces Guide](codespaces_guide.md).
